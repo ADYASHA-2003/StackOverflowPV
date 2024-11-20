@@ -1,0 +1,26 @@
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.search-input .input-field{
+    width: 60vh;
+    padding: 10px;
+    border-radius: 25px;
+    outline: none;
+    border: 1.5px solid gainsboro;
+    font-size: 0.7rem;
+    padding-left: 15px;
+    font-weight:bold;
+}
+.search-icon{
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    top: 10px;
+    color: orangered;
+}
+.nav-icons{
+    gap: 40px;
+}
