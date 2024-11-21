@@ -9,9 +9,9 @@ import { CgProfile } from "react-icons/cg";
 
 const Navbar = () => {
   return (
-    <div style={{display:"flex", padding:"30px",gap:"50px"}}>
+    <div className='navbar' style={{display:"flex", padding:"30px",gap:"50px"}}>
       {/* Logo */}
-      <div>
+      <div className='logo'>
         <img src="https://stackoverflow.design/assets/img/logos/so/logo-stackoverflow.png" alt="stackoverflowlogopng" width={150}/>
       </div>
 
@@ -25,8 +25,11 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* nav-icons */}
+      {/* nav-icons menu*/}
       <div className='nav-icons'>
+      <div className='nav-menu1'>
+        <p>Products</p>
+      </div>
       <FiMessageSquare />
       <HiOutlineTrophy />
       <BiMessageDetail />
